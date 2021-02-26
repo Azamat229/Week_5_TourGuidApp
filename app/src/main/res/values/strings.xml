@@ -1,0 +1,111 @@
+
+<resources>
+    <!-- Titles of Categories   -->
+    <string name="app_name">Tour Guid</string>
+    <string name="category_phrases">Phrases</string>
+    <string name="restaurants">RESTAURANTS</string>
+    <string name="monuments">MONUMENTS</string>
+    <string name="shops">Shops</string>
+
+
+    <!-- Title of Restaurant -->
+    <string name="res_1_gavai">Restaurant Gavai</string>
+    <string name="res_2_baiterek">Restaurant Baiterek</string>
+    <string name="res_3_sakura">Restaurant Sakura</string>
+    <string name="res_4_traktir">Restaurant Traktir</string>
+    <string name="res_5_han_ordo">Restaurant Har Ordo</string>
+    <string name="res_6_han_ordo">Restaurant Har Ordo 2</string>
+
+
+    <!-- Shops phone numbers   -->
+    <string name="phone_numbers_1">+996559444345</string>
+    <string name="phone_numbers_2">+996559444346</string>
+    <string name="phone_numbers_3">+996559444347</string>
+    <string name="phone_numbers_4">+996559444348</string>
+    <string name="phone_numbers_5">+996559444349</string>
+    <string name="phone_numbers_6">+996559444310</string>
+    <string name="phone_numbers_7">+996559444200</string>
+    <string name="phone_numbers_8">+996559444400</string>
+
+<!--    Shops title-->
+    <string name="shop_1_globus">Globus</string>
+    <string name="shop_2_frunze">Frunze</string>
+    <string name="shop_3_narodnyi">Narodnyi</string>
+    <string name="shop_4_jyraf">Jynaf</string>
+    <string name="shop_5_kovchek">Kovchek</string>
+    <string name="shop_6_kovchek">Kovche</string>
+
+<!--    Shops detail information-->
+    <string name="shop_1_desc">Hours: Open 24 hours</string>
+    <string name="shop_2_desc">Hours: Closes 12AM</string>
+    <string name="shop_3_desc">Hours: Closes 10AM</string>
+    <string name="shop_4_desc">Hours: Open 24 hours</string>
+    <string name="shop_5_desc">Hours: Closes 12AM</string>
+    <string name="shop_6_desc">Hours: Open 24 hours</string>
+    <string name="shop_7_desc">Hours: Closes 12AM</string>
+
+
+
+
+    <!-- Descriptions   -->
+    <string name="rest_1_description">Cuisine: Asia, European, Japanese, Eastern\nAverage fee: 1500 – 2500 soms\nWorking time: 10:00 – 23:00 (M-S)
+</string>
+
+    <string name="rest_2_description">Cuisine: Asia, Japanese, Eastern\nAverage fee: 100 – 500 soms\nWorking time: 10:00 – 23:00 (M-S)
+</string>
+
+    <string name="rest_3_description">Cuisine: Asia, Japanese, Eastern\nAverage fee: 100 – 500 soms\nWorking time: 10:00 – 23:00 (M-S)
+</string>
+
+    <string name="rest_4_description">Cuisine: Asia, Japanese, Eastern\nAverage fee: 100 – 500 soms\nWorking time: 10:00 – 23:00 (M-S)
+</string>
+
+    <string name="rest_5_description">Cuisine: Asia, Japanese, Eastern\nAverage fee: 100 – 500 soms\nWorking time: 10:00 – 23:00 (M-S)
+</string>
+
+    <string name="rest_6_description">Cuisine: Asia, Japanese, Eastern\nAverage fee: 100 – 500 soms\nWorking time: 10:00 – 23:00 (M-S)
+</string>
+
+
+
+
+    <!-- Vocabulary word for the number one [CHAR LIMIT=20] -->
+    <string name="number_one">Sultan Ibraimovich Ibraimov was an administrator and politician in the Kirghiz Soviet Socialist Republic. A long-time governor of Osh oblast, then comprising the entire southern part of present-day Kyrgyzstan, he rose to the position of Chairman of the Council of Ministers of the Kyrgyz SSR in 1978</string>
+    <string name="Ata_Turk">Sultan Ibraimov\'s monument</string>
+
+    <!-- Vocabulary word for the number two [CHAR LIMIT=20] -->
+    <string name="killed_in_GPW">А monument in honor of those killed in the Great Patriotic War, located in the city of Tokmok in the central square.</string>
+    <string name="killed_in_GPW_text">Monument to those killed in the great patriotic war</string>
+    <!-- Vocabulary word for the number three [CHAR LIMIT=20] -->
+    <string name="patriotic_war">The monument to the heroes of the Great Patriotic War is located in the central square of Tokmok city.</string>
+    <string name="patriotic_war_text">Heroes of the Great Patriotic War</string>
+
+    <!-- Vocabulary word for the number four [CHAR LIMIT=20] -->
+    <string name="number_four">four</string>
+
+    <!-- Vocabulary word for the number five [CHAR LIMIT=20] -->
+    <string name="baken_kydykeyeva_text">Baken Kydykeyeva was a Kyrgyzstani actress. She made her debut at the Young Spectators Theatre at the age of 16. Five years later, she joined the Naryn Regional Theatre, and subsequently the Kyrgyz National Theatre.</string>
+    <string name="baken_kydykeyeva">Baken Kydykeyeva </string>
+
+    <!-- Vocabulary word for the number six [CHAR LIMIT=20] -->
+    <string name="iuca_text">The International University of Central Asia (IUCA) is a small and friendly university, created according to an American model of higher education, and which meets the highest academic and ethical standards. Training programs create a real opportunity to get higher education and to achieve a successful career. Highly qualified teachers from the best universities of Kyrgyzstan, the USA, China and Russia work here. Graduates may receive a Kyrgyz state diploma for a bachelor’s degree and an American-style diploma, which is recognized around the world.</string>
+    <string name="iuca">I.U.C.A</string>
+
+    <!-- Vocabulary word for the number seven [CHAR LIMIT=20] -->
+    <string name="legendary">Manap-bey\'s monument</string>
+    <string name="legendary_text">Legendary historical figure, ruler of the northern Kyrgyz, one of the founders of the Kyrgyz-Kazakh union. He was the youngest, fourth son of Doolos-baatyr-the ancestor of the Sarybagysh tribe, a contemporary and closest ally of the Kyrgyz-Kazakh Khan Eshim. Manap-biy was a talented general. It was to him that Eshimkan instructed at the head of Tyumen (a detachment of 10,000 soldiers) to protect the Kyrgyz-Kazakh border from the Kalmak</string>
+
+    <!-- Vocabulary word for the number eight [CHAR LIMIT=20] -->
+    <string name="tokmok">Monument of Tokmok</string>
+    <string name="tokmok_text">Tokmak was founded as a Kokand fortress on the site of the city of Balasagun in 1825-1830. Later, it was captured by Russian troops, and a few years later a new city was built on the ruins of the fortress.
+Tokmak was briefly a county town. In the winter of 1878, a flood occurred on the Chu River due to an ice jam. It is for this reason that the center was moved to Pishpek. Had this not happened, Tokmak could have become the capital of the republic.</string>
+
+    <!-- Vocabulary word for the number nine [CHAR LIMIT=20] -->
+    <string name="number_nine">nine</string>
+
+    <!-- Vocabulary word for the number ten [CHAR LIMIT=20] -->
+    <string name="burana">Burana Tower</string>
+    <string name="burana_text">The Burana Tower is a large minaret in the Chuy Valley in northern Kyrgyzstan. It is located about 80 km east of the country\'s capital Bishkek, near the town of Tokmok. </string>
+
+    <string name="description">Башня Бурана — минарет X—XI веков империи Караханидов в Чуйской долине на севере Киргизии. Расположена в 80 км от столицы Бишкека, в 12 км к юго-западу от киргизского города Токмак по дороге в ущелье Кегеты киргизского хребта, на левом берегу реки Чу. Башня входит в состав особо охраняемого</string>
+</resources>

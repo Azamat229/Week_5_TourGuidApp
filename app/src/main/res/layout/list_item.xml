@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tan_background"
+    android:minHeight="@dimen/list_item_height"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
+
+    <TextView
+        android:id="@+id/miwok_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@id/image"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:text="lutti" />
+
+    <ImageButton
+        android:id="@+id/button_for_hide"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/arow_up_button2"
+        />
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+
+
+        >
+
+        <ImageView
+            android:id="@+id/image_notes"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_notes_image" />
+
+        <TextView
+            android:id="@+id/default_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/description"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner1"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/image_location"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_location_image" />
+
+        <TextView
+            android:id="@+id/default_text_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="4"
+            android:gravity="top"
+            android:text="some text"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner2"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+
+        >
+
+        <ImageButton
+            android:id="@+id/image_call"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_call_image" />
+
+        <TextView
+            android:id="@+id/text_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:autoLink="phone"
+            android:text="+996707444345"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>
